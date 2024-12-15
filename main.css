@@ -234,10 +234,10 @@ img {
   background-color: var(--accent-color);
 }
 .heroimg {
-  display: inline-block;
   display: flex;
   max-width: 100%;
-  height: 296px;
+  align-items: center;
+  justify-content: center;
 }
 .heroimg img {
   max-width: 50%;
@@ -478,7 +478,8 @@ hr {
     padding-right: 14px;
   }
   .heroimg img {
-    height: 136px;
+    width: 100%;
+    height: auto;
   }
   .nav {
     width: 100%;
@@ -509,10 +510,11 @@ hr {
     background-color: #aa0601;
   }
   .feature ul {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .feature li {
-    width: 33.33%;
+    width: 100%;
   }
   .feature a {
     width: 100%;
@@ -581,13 +583,8 @@ hr {
   }
 
   .contact-info li:first-of-type {
-    position: absolute;
-    left: 16px;
-    top: 2560px;
-  }
-  .contact-info li:first-of-type {
-    position: absolute;
-    left: 16px;
-    top: 2570px;
+    position: static;
+    left: auto;
+    top: auto;
   }
 }
