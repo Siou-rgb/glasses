@@ -438,7 +438,7 @@ hr {
   }
 
   .nav {
-    width: 696px;
+    width: 100%;
     margin: 0 auto;
   }
   .feature ul {
@@ -481,7 +481,7 @@ hr {
     height: 136px;
   }
   .nav {
-    width: 375px;
+    width: 100%;
   }
   .nav-list {
     display: flex;
@@ -563,7 +563,9 @@ hr {
     color: var(--primary-color);
   }
   .footer-bottom {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .footer-bottom p {
     font-size: 16px;
