@@ -427,7 +427,7 @@ hr {
 @media screen and (max-width: 768px) {
   .container,
   .footer-container {
-    width: 696px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 36px;
     padding-right: 36px;
@@ -456,7 +456,9 @@ hr {
     grid-template-columns: repeat(2, 1fr);
   }
   .product-item img {
-    width: 336px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
   .footer-nav > div:first-child ul {
     gap: 36px;
@@ -470,7 +472,7 @@ hr {
 @media (max-width: 375px) {
   .container,
   .footer-container {
-    width: 348px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 14px;
     padding-right: 14px;
@@ -530,7 +532,9 @@ hr {
     grid-template-columns: 1fr;
   }
   .product-item img {
-    width: 348px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
   .footer-nav > div:first-child ul {
     display: none;
