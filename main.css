@@ -437,7 +437,7 @@ hr {
     padding-left: 36px;
     padding-right: 36px;
   }
-  
+
   .product > .container {
     padding-left: 0px;
     padding-right: 0px;
@@ -446,7 +446,7 @@ hr {
     width: 100%;
     margin: 0 auto;
   }
- 
+
   .nav {
     width: 100%;
     margin: 0 auto;
@@ -479,7 +479,7 @@ hr {
 }
 
 /* Responsive for 375px (mobile) */
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .container,
   .footer-container {
     width: 100%;
@@ -525,7 +525,7 @@ hr {
   }
   .feature ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .feature li {
     width: 100%;
