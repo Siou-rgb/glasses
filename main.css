@@ -195,13 +195,16 @@ img {
   gap: 64px;
 }
 
-.container,
-.container-feature {
+.container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 .container-product {
+  width: 67.5vw;
+  margin: 0 auto;
+}
+.container-feature {
   width: 67.5vw;
   margin: 0 auto;
 }
@@ -211,6 +214,7 @@ img {
 }
 .feature ul {
   display: flex;
+  justify-content: center;
 }
 .feature li {
   text-align: center;
@@ -219,6 +223,8 @@ img {
 .feature a {
   display: block;
   width: 100%;
+  padding-left: 6vw;
+  padding-right: 6vw;
   height: 96px;
   background-color: #fff;
   text-decoration: none;
@@ -437,7 +443,11 @@ hr {
     padding-left: 36px;
     padding-right: 36px;
   }
-
+  .container-feature {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .product > .container {
     padding-left: 0px;
     padding-right: 0px;
@@ -461,6 +471,8 @@ hr {
   .feature a {
     width: 100%;
     font-size: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -486,6 +498,11 @@ hr {
     margin: 0 auto;
     padding-left: 14px;
     padding-right: 14px;
+  }
+  .container-feature {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container-product {
     width: 100%;
@@ -533,6 +550,8 @@ hr {
   .feature a {
     width: 100%;
     font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   h1 {
     font-size: 24px;
