@@ -196,13 +196,19 @@ img {
 }
 
 .container,
-.footer-container,
 .container-feature {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-
+.container-product {
+  width: 67.5vw;
+  margin: 0 auto;
+}
+.footer-container {
+  width: 67.5vw;
+  margin: 0 auto;
+}
 .feature ul {
   display: flex;
 }
@@ -431,11 +437,16 @@ hr {
     padding-left: 36px;
     padding-right: 36px;
   }
+  
   .product > .container {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+  .container-product {
+    width: 100%;
+    margin: 0 auto;
+  }
+ 
   .nav {
     width: 100%;
     margin: 0 auto;
@@ -475,6 +486,10 @@ hr {
     margin: 0 auto;
     padding-left: 14px;
     padding-right: 14px;
+  }
+  .container-product {
+    width: 100%;
+    margin: 0 auto;
   }
   .heroimg img {
     width: 100%;
